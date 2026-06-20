@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Add 3D terrain to a map</title>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v3.25.0/mapbox-gl.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="map"></div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.25.0/mapbox-gl.js'></script><script  src="./script.js"></script>
+  <div id="camera-debug">
+  <div><strong>Camera</strong></div>
+  <div>Lat: <span id="debug-lat">-</span></div>
+  <div>Long: <span id="debug-lng">-</span></div>
+  <div>Zoom: <span id="debug-zoom">-</span></div>
+  <div>Bearing / Rotation: <span id="debug-bearing">-</span></div>
+  <div>Pitch / Facing: <span id="debug-pitch">-</span></div>
+  <button id="copy-camera">Copy camera settings</button>
+</div>
+  </body>
+  
+</html>
